@@ -1,0 +1,8 @@
+2021/08/23 09:59:03 [emerg] 13760#13404: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/08/23 09:59:15 [emerg] 17992#11364: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/08/23 10:03:26 [emerg] 12564#2092: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/08/23 10:04:48 [error] 16720#13124: *1 CreateFile() "C:\Users\Administrator\my-app\nginx-1.21.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2021/08/23 10:05:26 [error] 7964#12408: *1 CreateFile() "C:\Users\Administrator\my-app\nginx-1.21.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8001", referrer: "http://localhost:8001/"
+2021/08/23 10:15:26 [error] 16720#13124: *5 CreateFile() "C:\Users\Administrator\my-app\nginx-1.21.1/html/sockjs-node/info" failed (3: The system cannot find the path specified), client: 192.168.77.47, server: localhost, request: "GET /sockjs-node/info?t=1629684926946 HTTP/1.1", host: "192.168.77.47:8080", referrer: "http://localhost:8080/"
+2021/08/25 17:10:20 [alert] 11464#16780: the event "ngx_master_11464" was not signaled for 5s
+2021/08/25 17:10:20 [alert] 11464#16780: could not respawn worker
